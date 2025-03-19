@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## FE - Shipment Trace
+
+## Overview
+
+This website is uses to see tracking shipment of Courier, with input Resi/AWB and choose courier in Indonesian Dosmetic (JNT,JNE,SiCepat,etc).
+This website consume API from [RajaOngkir](https://rajaongkir.com/dokumentasi/starter) and Frontend using Next JS, you can preview this websit in the link [here]
+
+## Tech Stack
+
+- [Tailwind](https://v3.tailwindcss.com/)
+- [Tanstack React Query](https://tanstack.com/query/latest)
+- [Material UI](https://mui.com/material-ui/getting-started/)
+- [BE - RajaOngkir](https://rajaongkir.com/dokumentasi/starter)
 
 ## Getting Started
 
