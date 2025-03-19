@@ -232,7 +232,7 @@ export default function Home() {
         />
         <Button
           fullWidth
-          disabled={isPending}
+          disabled={isPending || !Boolean(courirSelected) || !Boolean(numberResi)}
           onClick={onHandleTrace}
           startIcon={isPending ? <CircularProgress color='inherit' size="20px" /> : <Search />}
           variant='contained'
