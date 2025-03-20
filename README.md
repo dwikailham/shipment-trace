@@ -15,6 +15,13 @@ This website consume API from [RajaOngkir](https://rajaongkir.com/dokumentasi/st
 
 ## Getting Started
 
+Create `.env` file with key value, for `NEXT_PUBLIC_ACCESS_KEY` is mandatory to headers at API_HOST, you can genereate your own key in documentation [here](https://rajaongkir.com/dokumentasi/starter)
+
+```bash
+NEXT_PUBLIC_API_HOST=https://try.readme.io/https://rajaongkir.komerce.id
+NEXT_PUBLIC_ACCESS_KEY=Ye9NP8iQ8bd0d8150a6803923AMQ69lL
+```
+
 install the project
 ```bash
 npm install
